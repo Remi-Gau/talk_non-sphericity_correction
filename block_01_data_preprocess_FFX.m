@@ -7,6 +7,7 @@ clc
 %% get data
 url = 'https://www.fil.ion.ucl.ac.uk/spm/download/data/MoAEpilot/MoAEpilot.bids.zip';
 filename = fullfile(pwd, 'inputs', 'MoAEpilot.bids.zip');
+fprintf('Downloading Auditory dataset...\n');
 outfilename = websave(filename,url);
 unzip(filename, fullfile(pwd, 'inputs'))
 
