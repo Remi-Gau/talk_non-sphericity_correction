@@ -5,7 +5,9 @@ substantially improves fMRI reliability_
 
 Slides of the talk are [here](https://docs.google.com/presentation/d/1aaYEnMzA9F7X84c0vxb0Zmf8NMxIIv9RonAQqSPJMew/edit?usp=sharing)
 
-Those scripts will requite matlab and SPM12 to run properly. I doubt this is fully octave compatible.
+A lot of the slides and format has been heavily influenced by Jeanette Mumford youtube series but it uses only matlab tools and has scripts that will go (should at least) get the data for you. It will also do the preprocessing, specify the model, run the GLM for you and then extract the data and so on. Things it does not do: serves you fries, your laundry, answer emails.
+
+Those scripts will require matlab and SPM12 to run properly. I doubt this is fully octave compatible.
 
 ## What do we have here?
 
